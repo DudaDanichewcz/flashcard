@@ -1,13 +1,47 @@
 @import url(https://fonts.google.com/share?selection.family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700);
 
 body {
-    background-color: blue;
+    background-color: rgb(245, 177, 222);
+    color: rgb(255, 103, 235);
+    font-family: "PT Serif", serif;
+    font-weight: 800;
+    font-style: oblique;
+    text-align: center;
+}
+h3{
+    color: rgb(233, 95, 176);
+}
+div.cartao_conteudo_resposta{
+    color: rgb(211, 3, 117);
+}
+div.cartao_conteudo_pergunta{
+    color: rgb(182, 2, 56);
 }
 
 footer {
-    background-color: black;
-    color: beige;
+    background-color: rgb(255, 213, 249);
+    color: rgb(255, 0, 170);
     font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 800;
+    font-style: italic;
 }
+
+/* código omitido */
+
+#container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+}
+
+/* código omitido */
